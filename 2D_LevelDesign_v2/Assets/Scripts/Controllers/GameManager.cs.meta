@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8033e051e89490543badc7e474acdeb2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gameManagerModel: {fileID: 11400000, guid: dcea7794c9c2706439b6ff07931de959, type: 2}
+  - player: {instanceID: 0}
+  - bulletPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

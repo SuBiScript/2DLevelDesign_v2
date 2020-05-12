@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: f8b4ac605ca85a74da5c57b2e1fa2e60
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - soldierModel: {fileID: 11400000, guid: bf8307af72417b347bc4caaa0bb32c26, type: 2}
+  - dronModel: {fileID: 11400000, guid: cdfddde7fa92df34382575e9fa2baf42, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
