@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1447644660617848}
+  m_IsPrefabAsset: 1
+--- !u!1 &1447644660617848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4098270026115866}
+  - component: {fileID: 114976448421837294}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4098270026115866
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1447644660617848}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.8482406, y: -0.20201476, z: 81.066414}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114976448421837294
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1447644660617848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e85bee06c262c1e41b8b798b0717cac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MenuMusic
+    clip: {fileID: 8300000, guid: eae1574a2f658bb43b338d1e2a6e748b, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: LevelMusic
+    clip: {fileID: 8300000, guid: 39666812280745d47b2db2d25d4070b5, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: BossMusic
+    clip: {fileID: 8300000, guid: 3183826f90ad1bc4eb3b467a7a6e2dec, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Select
+    clip: {fileID: 8300000, guid: f4b117b6e2685f748a000faa7bce8029, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Enter
+    clip: {fileID: 8300000, guid: 6392911a0df316641840759fa7f901b2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerHurt
+    clip: {fileID: 8300000, guid: ded73e3c2eb47654e9e0ee9d360e1c1e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerJump
+    clip: {fileID: 8300000, guid: 21963472af27bf14893275e86f92b1ce, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerDead
+    clip: {fileID: 8300000, guid: 05269e6487ffa9d47b80c9a7d185123a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerBlaster
+    clip: {fileID: 8300000, guid: f9a1dc44690cc684e845db02f6657bf2, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SoldierDead
+    clip: {fileID: 8300000, guid: a6868bbc98cc6034ba7099f43fc102d9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SoldierBlaster
+    clip: {fileID: 8300000, guid: b9889caa6c4b9194ba9f5c432f475b9f, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SoldierDead
+    clip: {fileID: 8300000, guid: 36c4ca8158629f242b01b782e224dd39, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: RumbaFollowing
+    clip: {fileID: 8300000, guid: 29403285f794f2543a9993108047ccb1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: RumbaShooting
+    clip: {fileID: 8300000, guid: 93e188693ef57b240b0a0a10712effd8, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: RumbaExplosion
+    clip: {fileID: 8300000, guid: 71a61e21bbf29554f93faece91322a2c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: d0499d8e82738a54d93893f6c194817f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossCharge
+    clip: {fileID: 8300000, guid: f39dfe4591f8a274e97f9b1384c16299, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossMelee
+    clip: {fileID: 8300000, guid: 17c319e45b71ce94e8bab4b2f5b7d2de, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossShoot
+    clip: {fileID: 8300000, guid: a561cc8b834e90b418c14ccbacad9e1f, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossExplosion
+    clip: {fileID: 8300000, guid: c85f67f03f4472048be8ce03ca54ae11, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossVoice
+    clip: {fileID: 8300000, guid: 2eed0e251af65aa49ad6cab2bba642c5, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PickItem
+    clip: {fileID: 8300000, guid: 6eece8211e39105409b96181866fa4b7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: UseMedKit
+    clip: {fileID: 8300000, guid: d3a55b1a5cda84144bc6c0e8c54221ce, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GrenadeLauncher
+    clip: {fileID: 8300000, guid: 7483feb54758a4b47917d46d689bf882, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: YouWin
+    clip: {fileID: 8300000, guid: aa95da6a35181e343af52dca5914792e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GrenadeExplosion
+    clip: {fileID: 8300000, guid: 2786eea9c3f1bca4f9ef70ec26d9c6cb, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ChangeWeapon1
+    clip: {fileID: 8300000, guid: bc74976ec8cb70742883e4810a7468d3, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ChangeWeapon2
+    clip: {fileID: 8300000, guid: d6666d795a195814d927470a7b33c74e, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ohyeah
+    clip: {fileID: 8300000, guid: 08613bbbd905f214882ab557d96050ea, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Combo
+    clip: {fileID: 8300000, guid: fa4a1fd2b5947f440aeb630769c2934e, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  menuState: {fileID: 0}

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 30b02c336b4b7f54ea4b795a9d087925
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rumbaModel: {fileID: 11400000, guid: dc608fe3b6249f547bced2b8811c946a, type: 2}
+  - rb2d: {instanceID: 0}
+  - anim: {instanceID: 0}
+  - groundPoint: {instanceID: 0}
+  - firePoint: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
